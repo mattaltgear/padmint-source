@@ -1,0 +1,88 @@
+{
+  "name": "PadMint",
+  "identifier": "io.github.mattaltgear.padmint",
+  "subtitle": "The PadMint game library for iPhone and iPad",
+  "description": "Unofficial AltStore source for the PadMint iOS library app by Chris Sotraidis. It lists the Pad ports you've built with PadMint (HaloPad, KartPad, BlueWake and more) and launches them. It doesn't contain or download any games.",
+  "iconURL": "https://raw.githubusercontent.com/chrissotraidis/padmint/main/ios/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+  "website": "https://github.com/chrissotraidis/padmint",
+  "tintColor": "#34C759",
+  "featuredApps": [
+    "com.chrissotraidis.padmintlibrary"
+  ],
+  "apps": [
+    {
+      "name": "PadMint",
+      "bundleIdentifier": "com.chrissotraidis.padmintlibrary",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "One library for your PadMint games.",
+      "localizedDescription": "PadMint keeps every game you've built with PadMint in one library, each with a Play button. It doesn't build or download games: make each one on your computer with PadMint, install it, and it shows up here with a green check mark.\n\nHaloPad shows up as Halo: Combat Evolved once a HaloPad build made with PadMint 0.5.34 or newer is installed.\n\n- Grid, 3D box carousel and list layouts\n- Search, sorting and console filters\n- Game controller navigation\n- Optional official box art and titles\n\nExperimental. Requires iOS/iPadOS 17 or later.",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/padmint/main/ios/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "tintColor": "#34C759",
+      "category": "games",
+      "screenshots": [
+        {
+          "imageURL": "https://raw.githubusercontent.com/chrissotraidis/padmint/main/docs/images/padmint-ios-library.jpg",
+          "width": 1100,
+          "height": 1467
+        }
+      ],
+      "versions": [
+        {
+          "version": "0.6.9",
+          "buildVersion": "15",
+          "date": "2026-11-17T12:28:01Z",
+          "localizedDescription": "Adds OpenTTDPad to the library, under PC with the OpenTTD logo.",
+          "downloadURL": "https://github.com/chrissotraidis/padmint/releases/download/v0.6.9/PadMint-ios-unsigned.ipa",
+          "size": 1106216,
+          "sha256": "1ecb524e95c8878f565df7d856816cd5977061b0b02b4c3239ebe62dbfc99d25",
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "0.6.8",
+          "buildVersion": "14",
+          "date": "2026-11-17T04:27:18Z",
+          "localizedDescription": "RingPad's 3D box gets its Sonic Adventure back cover.",
+          "downloadURL": "https://github.com/chrissotraidis/padmint/releases/download/v0.6.8/PadMint-ios-unsigned.ipa",
+          "size": 1106120,
+          "sha256": "79be8434990d92f210cf9f64ba3184076011e483c678f62b7cc6616d911f86d9",
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "0.6.7",
+          "buildVersion": "13",
+          "date": "2026-11-16T08:41:00Z",
+          "localizedDescription": "Adds RingPad and Dreamcast to the library.",
+          "downloadURL": "https://github.com/chrissotraidis/padmint/releases/download/v0.6.7/PadMint-ios-unsigned.ipa",
+          "size": 1106122,
+          "sha256": "dfd1f5bc882a33ee6e2f9e48e7137d84cef81615a81ed46bf7b447955d4c691b",
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "0.6.6",
+          "buildVersion": "12",
+          "date": "2026-11-15T18:27:48Z",
+          "localizedDescription": "Library changes merged since 0.6.5.",
+          "downloadURL": "https://github.com/chrissotraidis/padmint/releases/download/v0.6.6/PadMint-ios-unsigned.ipa",
+          "size": 1105503,
+          "sha256": "9081aa5ecfab634c3e843deb8e466b44d82f53c1942c1204ba96245d42e3e8b2",
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "0.6.5",
+          "buildVersion": "11",
+          "date": "2026-11-12T09:25:43Z",
+          "localizedDescription": "PadMint 0.6.5 library app.",
+          "downloadURL": "https://github.com/chrissotraidis/padmint/releases/download/v0.6.5/PadMint-ios-unsigned.ipa",
+          "size": 952328,
+          "sha256": "e37e4105ed86b1710a8f4156adbfd4c4f14557bf0101e337a016f4f1a6779a08",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}
